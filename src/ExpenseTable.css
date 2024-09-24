@@ -1,0 +1,55 @@
+/* General container styling */
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Table styling */
+  .expense-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .expense-table th,
+  .expense-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .expense-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .expense-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .expense-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Error styling */
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
+  /* Responsive styling */
+  @media screen and (max-width: 600px) {
+    .expense-table th, .expense-table td {
+      font-size: 12px;
+      padding: 8px;
+    }
+  }
+  
